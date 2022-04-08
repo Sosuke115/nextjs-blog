@@ -5,7 +5,6 @@ import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 
 import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
-import { MdWifi } from "react-icons/md";
 import { IconContext } from "react-icons";
 
 const name = "Sosuke Nishikawa";
