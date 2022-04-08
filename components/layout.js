@@ -1,11 +1,16 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
-import Link from 'next/link'
+import Head from "next/head";
+import Image from "next/image";
+import styles from "./layout.module.css";
+import utilStyles from "../styles/utils.module.css";
+import Link from "next/link";
 
-const name = 'Your Name'
-export const siteTitle = 'Next.js Sample Website'
+import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
+import { MdWifi } from "react-icons/md";
+import { IconContext } from "react-icons";
+
+const name = "Sosuke Nishikawa";
+export const siteTitle = "Sosuke Nishikawa (西川荘介)";
+export const siteTitle_ja = "西川荘介 (Sosuke Nishikawa)";
 
 export default function Layout({ children, home }) {
   return (
@@ -27,17 +32,109 @@ export default function Layout({ children, home }) {
       </Head>
       <header className={styles.header}>
         {home ? (
-          <>
-            <Image
-              priority
-              src="/images/profile.jpg"
-              className={utilStyles.borderCircle}
-              height={144}
-              width={144}
-              alt={name}
-            />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
-          </>
+          <div className={utilStyles.profile}>
+            <div>
+              <Image
+                priority
+                src="/images/profile.jpg"
+                className={utilStyles.borderCircle}
+                height={200}
+                width={200}
+                alt={name}
+                layout={"responsive"}
+              />
+
+              <br />
+
+              {/* SNS Links */}
+              <div
+                className={`${utilStyles.paddingLeft} ${utilStyles.paddingRight}`}
+              >
+                
+              
+              <a href="https://twitter.com/ponyo_ponyo115" className={styles.forceBlack}>
+                <IconContext.Provider
+                  value={{
+                    style: {
+                      fontSize: "2.5rem",
+                    },
+                  }}
+                >
+
+                  <FaTwitter />
+                  
+                </IconContext.Provider>
+                </a>
+
+                <a href="https://github.com/Sosuke115" className={styles.forceBlack}>
+                <IconContext.Provider
+                  value={{
+                    style: {
+                      fontSize: "2.5rem",
+                    },
+                  }}
+                >
+                  <FaGithub />
+                </IconContext.Provider>
+                </a>
+
+                <a href="https://www.linkedin.com/in/sosuke-nishikawa-2100581a0/" className={styles.forceBlack}>
+                <IconContext.Provider
+                  value={{
+                    style: {
+                      fontSize: "2.5rem",
+                    },
+                  }}
+                >
+                  <FaLinkedin />
+                </IconContext.Provider>
+                </a>
+              </div>
+            </div>
+
+            <div className={utilStyles.profileText}>
+              <h1 className={utilStyles.heading2Xl}>{name}</h1>
+              <div>
+                ML/Software Engineer,{" "}
+                <Link href="https://about.yahoo.co.jp/">
+                  Yahoo Japan Corporation
+                </Link>
+              </div>
+
+              <div>
+                Bachelor of Engineering,{" "}
+                <a href="https://www.ee.t.u-tokyo.ac.jp/j/">
+                  The University of Tokyo
+                </a>
+                , 2020
+              </div>
+              <div>
+                Master of Information Science and Technology,{" "}
+                <a href="https://www.i.u-tokyo.ac.jp/index_e.shtml">
+                  The University of Tokyo
+                </a>
+                , 2022
+              </div>
+
+              {/* TODO link to Github, Twitter, LinkedIn */}
+
+              {/* <FaTwitter /> */}
+
+              {/* <Link href="https://twitter.com/ponyo_ponyo115">
+                <a className={utilStyles.paddingLeft}>ponyo_ponyo115</a>
+              </Link> */}
+
+              {/* <br /> */}
+
+              <div>
+                <a href="https://sosuke115.github.io/">Here</a> is the portfolio
+                in my student days.
+              </div>
+              {/* <Link href={`/index_ja`}>
+                <a>日本語のページはコチラ</a>
+              </Link> */}
+            </div>
+          </div>
         ) : (
           <>
             <Link href="/">
@@ -46,8 +143,8 @@ export default function Layout({ children, home }) {
                   priority
                   src="/images/profile.jpg"
                   className={utilStyles.borderCircle}
-                  height={108}
-                  width={108}
+                  height={208}
+                  width={208}
                   alt={name}
                 />
               </a>
@@ -69,5 +166,5 @@ export default function Layout({ children, home }) {
         </div>
       )}
     </div>
-  )
+  );
 }
