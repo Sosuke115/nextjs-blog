@@ -9,10 +9,6 @@
 .profileImage {
   margin: 0 auto;
 }
-.profileText {
-  /* margin-left: 4rem; */
-  line-height: 1.5;
-}
 
 @media screen and (min-width: 769px) {
   .flexContainer {
