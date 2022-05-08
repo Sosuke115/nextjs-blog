@@ -7,18 +7,21 @@ export default function Profile(props) {
   if (props.name == "Sosuke Nishikawa") {
     return (
       <div className={styles.flexContainer}>
-        <Image
-          priority
-          src="/images/profile.jpg"
-          className={`${utilStyles.borderCircle} ${styles.profileImage}`}
-          height={180}
-          width={180}
-          alt={props.name}
-        />
+        <div className={styles.profileImage}>
+          <Image
+            priority
+            src="/images/profile.jpg"
+            className={`${utilStyles.borderCircle}`}
+            height={180}
+            width={180}
+            alt={props.name}
+          />
+        </div>
 
         <div className={`${utilStyles.headingMd} ${styles.profileText}`}>
-          <div className={utilStyles.headingXl}>{props.name}</div>
-
+          <div className={`${utilStyles.headingXl} ${styles.profileName}`}>
+            {props.name}
+          </div>
           <div>
             ML/Software Engineer,{" "}
             <Link href="https://about.yahoo.co.jp/">
@@ -52,23 +55,25 @@ export default function Profile(props) {
   } else if (props.name == "西川 荘介") {
     return (
       <div className={styles.flexContainer}>
-        <Image
-          priority
-          src="/images/profile.jpg"
-          className={`${utilStyles.borderCircle} ${styles.profileImage}`}
-          height={180}
-          width={180}
-          alt={props.name}
-        />
+        <div className={styles.profileImage}>
+          <Image
+            priority
+            src="/images/profile.jpg"
+            className={`${utilStyles.borderCircle}`}
+            height={180}
+            width={180}
+            alt={props.name}
+          />
+        </div>
 
         <div className={`${utilStyles.headingMd} ${styles.profileText}`}>
-          <div className={utilStyles.headingXl}>{props.name}</div>
+          <div className={`${utilStyles.headingXl} ${styles.profileName}`}>
+            {props.name}
+          </div>
 
           <div>
-          機械学習/ソフトウェアエンジニア,{" "}
-            <Link href="https://about.yahoo.co.jp/">
-              ヤフー株式会社
-            </Link>
+            機械学習/ソフトウェアエンジニア,{" "}
+            <Link href="https://about.yahoo.co.jp/">ヤフー株式会社</Link>
           </div>
 
           <div>
