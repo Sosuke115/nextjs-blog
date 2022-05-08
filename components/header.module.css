@@ -12,9 +12,14 @@
   font-weight: 700;
 }
 
-.jaLink {
+.langLinks {
+  display: flex;
   margin-right: 0;
   margin-left: auto;
+}
+
+.langLink {
+  margin-right: 1rem;
 }
 
 .borderCircle {

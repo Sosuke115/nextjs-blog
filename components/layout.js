@@ -3,10 +3,6 @@ import styles from "./layout.module.css";
 import Footer from "./footer";
 import Header from "./header";
 
-const name = "Sosuke Nishikawa";
-export const siteTitle = "Sosuke Nishikawa (西川荘介)";
-export const siteTitle_ja = "西川荘介 (Sosuke Nishikawa)";
-
 export default function Layout({ children }) {
   return (
     <>

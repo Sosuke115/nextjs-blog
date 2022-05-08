@@ -2,7 +2,7 @@ import Head from "next/head";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 import Profile from "../components/profile";
-import Layout, { siteTitle } from "../components/layout";
+import Layout from "../components/layout";
 
 export async function getStaticProps() {
   const allPostsData = await getSortedPostsData();
@@ -22,10 +22,10 @@ export default function Home({ idToData }) {
   return (
     <Layout>
       <Head>
-        <title>{siteTitle}</title>
+        <title>Sosuke Nishikawa (西川荘介)</title>
       </Head>
 
-      <Profile />
+      <Profile name="Sosuke Nishikawa"/>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <ul className={utilStyles.list}>
