@@ -1,8 +1,8 @@
-import utilStyles from "../styles/utils.module.css";
-import styles from "./profile.module.css";
-import Image from "next/image";
-import Link from "next/link";
-const name = "Sosuke Nishikawa";
+// import utilStyles from "../styles/utils.module.css";
+// import styles from "./profile.module.css";
+// import Image from "next/image";
+// import Link from "next/link";
+// const name = "Sosuke Nishikawa";
 
 export default function Profile() {
   return (
