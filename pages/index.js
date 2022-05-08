@@ -1,7 +1,7 @@
 import Head from "next/head";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
-import Profile from "../components/profile";
+// import Profile from "../components/profile";
 import Layout, { siteTitle } from "../components/layout";
 
 export async function getStaticProps() {
@@ -25,7 +25,7 @@ export default function Home({ idToData }) {
         <title>{siteTitle}</title>
       </Head>
 
-      <Profile />
+      {/* <Profile /> */}
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <ul className={utilStyles.list}>
