@@ -34,8 +34,7 @@ export default function Home({ idToData }) {
 
       <Profile />
 
-      {/* Go to Post.js */}
-
+      {/* TODO post.js */}
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <ul className={utilStyles.list}>
