@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "./layout.module.css";
-// import Footer from "./footer";
+import Footer from "./footer";
 import Header from "./header";
 
 const name = "Sosuke Nishikawa";
@@ -20,7 +20,7 @@ export default function Layout({ children }) {
         </Head>
         {children}
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
