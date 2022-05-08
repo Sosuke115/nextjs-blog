@@ -1,24 +1,22 @@
 import utilStyles from "../styles/utils.module.css";
-import styles from "./layout.module.css";
+import styles from "./profile.module.css";
 import Image from "next/image";
 import Link from "next/link";
 const name = "Sosuke Nishikawa";
 
 export default function Profile() {
   return (
-    // <div className={utilStyles.profile}>
-    <div className={utilStyles.flexContainer}  >
+    <div className={styles.flexContainer}  >
         <Image
           priority
           src="/images/profile.jpg"
-          className={`${utilStyles.borderCircle} ${utilStyles.profileImage}`}
+          className={`${utilStyles.borderCircle} ${styles.profileImage}`}
           height={180}
           width={180}
           alt={name}
-        //   layout={"fixed"}
         />
 
-      <div className={`${utilStyles.headingMd} ${utilStyles.profileText}`}>
+      <div className={`${utilStyles.headingMd} ${styles.profileText}`}>
         <div className={utilStyles.headingXl}>{name}</div>
 
         <div>
