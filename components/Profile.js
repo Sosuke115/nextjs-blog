@@ -46,9 +46,6 @@ export default function Profile() {
           <a href="https://sosuke115.github.io/">Here</a> is the previous
           portfolio.
         </div>
-        <Link href={`/index_ja`}>
-          <a>日本語のページはコチラ</a>
-        </Link>
       </div>
     </div>
   );

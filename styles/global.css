@@ -1,4 +1,7 @@
-html,
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -17,7 +20,6 @@ a {
   color: #0070f3;
   text-decoration: none;
 }
-
 
 a:hover {
   text-decoration: underline;

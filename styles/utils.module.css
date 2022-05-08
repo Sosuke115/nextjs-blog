@@ -4,7 +4,7 @@
 }
 
 .flexContainer{
-  text-align: center; 
+  text-align: center;  
 }
 
 .profileText {
@@ -99,7 +99,7 @@
 .footer {
   text-align: center;
   /* margin: 0 auto; */
-  background-color: slategray;
+  background-color: #bec5ca;
   height: 8rem;
   padding: 1.5rem;
   font-size: 1.2rem;

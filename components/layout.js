@@ -1,11 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "./layout.module.css";
-import Footer from "./Footer";
+import Footer from "./footer";
 import Link from "next/link";
 
 import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 import { IconContext } from "react-icons";
+import Header from "./header";
 
 const name = "Sosuke Nishikawa";
 export const siteTitle = "Sosuke Nishikawa (西川荘介)";
@@ -14,7 +15,7 @@ export const siteTitle_ja = "西川荘介 (Sosuke Nishikawa)";
 export default function Layout({ children }) {
   return (
     <>
-      {/* TODO navbar */}
+      <Header />
       <div className={styles.container}>
         <Head>
           <meta
