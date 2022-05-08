@@ -20,6 +20,7 @@ export async function getStaticPaths() {
 }
 
 // Add this import at the top of the file
+// ここはページ遷移に必要
 import utilStyles from '../../styles/utils.module.css'
 
 export default function Post({ postData }) {

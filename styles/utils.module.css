@@ -3,14 +3,32 @@
   border-bottom: 1px dashed black;
 }
 
-.profile {
-  display: flex;
+.flexContainer{
+  text-align: center; 
 }
 
 .profileText {
-  margin-left: 2rem;
+  line-height: 1.5;
 }
 
+.profileImage {
+  margin: 0 auto;
+}
+.profileText {
+  /* margin-left: 4rem; */
+  line-height: 1.5; 
+}
+
+@media screen and (min-width:769px){
+  .flexContainer{
+    display: flex;
+    text-align: left; 
+  }
+  .profileText {
+    margin-left: 4rem;
+    line-height: 1.5; 
+  }
+}
 /* ここまで */
 
 .heading2Xl {
@@ -18,7 +36,7 @@
   line-height: 1.2;
   font-weight: 800;
   letter-spacing: -0.05rem;
-  margin:1rem 0;
+  margin: 1rem 0;
 }
 
 .headingXl {
@@ -36,12 +54,12 @@
 }
 
 .headingMd {
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
 .borderCircle {
-  border-radius: 9999px;
+  border-radius: 30px;
 }
 
 .colorInherit {
@@ -57,11 +75,11 @@
 }
 
 .paddingLeft {
-  padding-left: 1.0rem;
+  padding-left: 1rem;
 }
 
 .paddingRight {
-  padding-right: 1.0rem;
+  padding-right: 1rem;
 }
 
 .list {
@@ -76,4 +94,23 @@
 
 .lightText {
   color: #666;
+}
+
+.footer {
+  text-align: center;
+  /* margin: 0 auto; */
+  background-color: slategray;
+  height: 8rem;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.snsIcons {
+  margin: 0 1rem;
+  color: black !important;
+}
+
+.snsIcons:hover{
+  opacity: 0.5 ;
+  transition: .4s;
 }

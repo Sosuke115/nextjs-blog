@@ -4,8 +4,6 @@ import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
-import Profile from "../components/Profile";
-import Footer from "../components/Footer";
 
 export async function getStaticProps() {
   const allPostsData = await getSortedPostsData();
@@ -28,15 +26,10 @@ export default function Home({ idToData }) {
   console.log(idToData);
   const idList = ["workExperience", "publications", "products", "awards"];
   return (
-    <Layout>
+    <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
-
-      <Profile />
-
-      {/* Go to Post.js */}
-
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <ul className={utilStyles.list}>
@@ -50,7 +43,6 @@ export default function Home({ idToData }) {
           ))}
         </ul>
       </section>
-      
     </Layout>
   );
 }
