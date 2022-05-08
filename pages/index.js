@@ -25,7 +25,7 @@ export default function Home({ idToData }) {
         <title>{siteTitle}</title>
       </Head>
 
-      <Profile />
+      {/* <Profile /> */}
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <ul className={utilStyles.list}>
