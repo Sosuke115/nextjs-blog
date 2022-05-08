@@ -1,0 +1,17 @@
+.footer {
+  text-align: center;
+  background-color: #bec5ca;
+  height: 8rem;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.snsIcons {
+  margin: 0 1rem;
+  color: black !important;
+}
+
+.snsIcons:hover {
+  opacity: 0.5;
+  transition: 0.4s;
+}

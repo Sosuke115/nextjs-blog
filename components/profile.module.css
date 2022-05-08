@@ -1,0 +1,30 @@
+/* .flexContainer {
+  text-align: center;
+} */
+
+.profileText {
+  line-height: 1.5;
+  text-align: left;
+}
+
+.profileImage {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profileName {
+  text-align: center;
+}
+
+@media screen and (min-width: 769px) {
+  .flexContainer {
+    display: flex;
+  }
+  .profileText {
+    margin-left: 4rem;
+    line-height: 1.5;
+  }
+  .profileName {
+    text-align: left;
+  }
+}

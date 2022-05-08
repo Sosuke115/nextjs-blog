@@ -2,15 +2,6 @@
 .headBorder {
   border-bottom: 1px dashed black;
 }
-
-.profile {
-  display: flex;
-}
-
-.profileText {
-  margin-left: 2rem;
-}
-
 /* ここまで */
 
 .heading2Xl {
@@ -18,7 +9,7 @@
   line-height: 1.2;
   font-weight: 800;
   letter-spacing: -0.05rem;
-  margin:1rem 0;
+  margin: 1rem 0;
 }
 
 .headingXl {
@@ -36,12 +27,12 @@
 }
 
 .headingMd {
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
 .borderCircle {
-  border-radius: 9999px;
+  border-radius: 10px;
 }
 
 .colorInherit {
@@ -57,11 +48,11 @@
 }
 
 .paddingLeft {
-  padding-left: 1.0rem;
+  padding-left: 1rem;
 }
 
 .paddingRight {
-  padding-right: 1.0rem;
+  padding-right: 1rem;
 }
 
 .list {

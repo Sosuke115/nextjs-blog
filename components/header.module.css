@@ -1,0 +1,28 @@
+.header {
+  background-color: #f9f9f9;
+  padding: 1.2rem;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  box-shadow: 1px 1px 1px #e0e1e1;
+  display: flex;
+}
+
+.portfolioTitle {
+  margin-left: 1rem;
+  font-weight: 700;
+}
+
+.langLinks {
+  display: flex;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.langLink {
+  margin-right: 1rem;
+}
+
+.borderCircle {
+  border-radius: 9999px;
+  box-shadow: 0 0 0 2px gray;
+}
