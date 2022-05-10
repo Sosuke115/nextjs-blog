@@ -1,10 +1,7 @@
-/* .flexContainer {
-  text-align: center;
-} */
-
 .profileText {
   line-height: 1.5;
   text-align: left;
+  display: inline-block;
 }
 
 .profileImage {
@@ -16,15 +13,27 @@
   text-align: center;
 }
 
+.profileTextWrapper {
+  text-align: center;
+}
+
 @media screen and (min-width: 769px) {
   .flexContainer {
     display: flex;
   }
   .profileText {
-    margin-left: 4rem;
     line-height: 1.5;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
   }
   .profileName {
     text-align: left;
+    width: 100%;
+  }
+  .profileTextWrapper {
+    text-align: center;
+    width: 50%;
+    height: 1rem;
   }
 }
