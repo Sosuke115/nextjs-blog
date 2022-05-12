@@ -11,6 +11,7 @@ export default function Header() {
         className={styles.borderCircle}
         height={30}
         width={30}
+        alt="Sosuke"
       />
       <div className={styles.portfolioTitle}>Sosuke's Portfolio</div>
       <div className={styles.langLinks}>

@@ -22,7 +22,7 @@ export default function Home({ idToData }) {
   return (
     <Layout>
       <Head>
-        <title>Sosuke Nishikawa (西川荘介)</title>
+        <title>Sosuke Nishikawa's Portfolio</title>
       </Head>
 
       <Profile name="Sosuke Nishikawa"/>
@@ -31,7 +31,7 @@ export default function Home({ idToData }) {
         <ul className={utilStyles.list}>
           {idList.map((id) => (
             <li className={utilStyles.listItem}>
-              <h2 className={utilStyles.headBorder}>{idToData.title[id]}</h2>
+              <h1 className={utilStyles.headBorder}>{idToData.title[id]}</h1>
               <div
                 dangerouslySetInnerHTML={{ __html: idToData.contentHtml[id] }}
               />
