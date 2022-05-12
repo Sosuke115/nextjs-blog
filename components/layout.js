@@ -13,6 +13,14 @@ export default function Layout({ children }) {
             name="viewport"
             content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
           />
+          <meta name="robots" content="all" />
+          <meta
+            name="description"
+            content="Sosuke Nishikawa, ML/Software Engineer, Yahoo Japan Corporation"
+            key="desc"
+          />
+          <meta charset="UTF-8"/>
+          <meta name="og:title" content="Sosuke Nishikawa's Portfolio" />
         </Head>
         {children}
       </div>
