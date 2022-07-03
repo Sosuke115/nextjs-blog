@@ -14,6 +14,7 @@ export default function Layout({ children }) {
             content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
           />
           <meta name="robots" content="all" />
+          <meta name="author" content="Sosuke Nishikawa"/>
           <meta
             name="description"
             content="Sosuke Nishikawa, ML/Software Engineer, Yahoo Japan Corporation"

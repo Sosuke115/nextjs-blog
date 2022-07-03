@@ -40,8 +40,8 @@ export default function Profile(props) {
             </a>
             , 2020
             <br />
-            <a href="https://sosuke115.github.io/">Here</a> is the previous
-            portfolio.
+            {/* <a href="https://sosuke115.github.io/">Here</a> is the previous
+            portfolio. */}
           </p>
         </div>
       </div>
@@ -78,8 +78,8 @@ export default function Profile(props) {
             </a>
             , 2020
             <br />
-            学生時代のポートフォリオは
-            <a href="https://sosuke115.github.io/">コチラ</a>
+            {/* 学生時代のポートフォリオは
+            <a href="https://sosuke115.github.io/">コチラ</a> */}
           </p>
         </div>
       </div>
