@@ -13,10 +13,10 @@ export default function Layout({ children }) {
             name="viewport"
             content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
           />
-          <meta name="robots" content="all" />
+          <meta name="author" content="Sosuke Nishikawa"/>
           <meta
             name="description"
-            content="Sosuke Nishikawa, ML/Software Engineer, Yahoo Japan Corporation"
+            content="Homepage of Sosuke Nishikawa"
             key="desc"
           />
           <meta charset="UTF-8"/>
