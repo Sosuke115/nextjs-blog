@@ -9,12 +9,12 @@ title: 'Publications'
 - [EASE: Entity-Aware Contrastive Learning of Sentence Embedding](https://arxiv.org/abs/2205.04260) \
     **Sosuke Nishikawa**, Ryokan Ri, Ikuya Yamada, Yoshimasa Tsuruoka, Isao Echizen \
     Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT 2022) \
-    [[paper](https://arxiv.org/abs/2205.04260)] [[code](https://github.com/studio-ousia/ease)] [slide (in press)]
+    [[paper](https://arxiv.org/abs/2205.04260)] [[code](https://github.com/studio-ousia/ease)] [[slide](https://sosuke.info/files/ease.pdf)] [[model](https://huggingface.co/sosuke)]
 
 - [Data Augmentation with Unsupervised Machine Translation Improves the Structural Similarity of Cross-lingual Word Embeddings](https://aclanthology.org/2021.acl-srw.17/) \
     **Sosuke Nishikawa**, Ryokan Ri, Yoshimasa Tsuruoka \
     Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: Student Research Workshop, pages 163–173, Online. (ACL-SRW 2021) \
-    [[paper](https://aclanthology.org/2021.acl-srw.17/)] [[slide](https://sosuke115.github.io/files/umtvec_slide.pdf)] 
+    [[paper](https://aclanthology.org/2021.acl-srw.17/)] [[code (downstream tasks)](https://github.com/Sosuke115/CLDC)] [[slide](https://sosuke115.github.io/files/umtvec_slide.pdf)]
 
 
 
