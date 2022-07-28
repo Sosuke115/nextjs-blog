@@ -32,12 +32,22 @@ const HamburgerIcon = () => (
 export const Links = () => (
   <>
     <Link href="/">
-      <a className="font-bold p-4">Home</a>
+      <a className="font-bold p-4">About</a>
     </Link>
     <Link href="/index_ja">
       <a className="font-bold p-4">日本語</a>
+    </Link>
+    <Link href="/links">
+      <a className="font-bold p-4">Links</a>
+    </Link>
+    <Link href="https://nchaso.hatenablog.com">
+      <a className="font-bold p-4">Blog</a>
     </Link>
   </>
 );
 
 export default HamburgerMenu;
+
+{/* <Link href="/experience">
+<a className="font-bold p-4">Experience</a>
+</Link> */}
