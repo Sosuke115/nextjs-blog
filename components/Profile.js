@@ -69,7 +69,7 @@ export default function Profile(props) {
             <Link href="https://about.yahoo.co.jp/">ヤフー株式会社</Link>
             <br />
             <a href="https://www.i.u-tokyo.ac.jp/edu/course/ice/">
-              東京大学大学院 情報理工学研究科 電子情報学専攻修了
+              東京大学大学院 情報理工学研究科 電子情報学専攻博士前期課程修了
             </a>
             , 2022
             <br />
