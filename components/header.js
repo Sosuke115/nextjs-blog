@@ -7,6 +7,8 @@ export default function Header() {
   return (
     <div className={styles.header}>
       <div className='flex md:hidden'><HamburgerMenu /></div>
+      <Link href="/">
+      <a>
       <Image
         priority
         src="/images/sosuke.jpg"
@@ -15,7 +17,12 @@ export default function Header() {
         width={30}
         alt="Sosuke"
       />
-      <div className={styles.portfolioTitle}>Sosuke's Portfolio</div>
+      </a>
+       </Link>
+      <Link href="/">
+      <a className={styles.portfolioTitle}>Sosuke's Portfolio</a>
+      </Link>
+      {/* <div className={styles.portfolioTitle}>Sosuke's Portfolio</div> */}
       {/* <div className={styles.langLinks}>
         <div className={styles.langLink}> */}
           {/* <Link href={`/`}>
