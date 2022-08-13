@@ -14,6 +14,10 @@
 .portfolioTitle {
   margin-left: 1rem;
   font-weight: 700;
+  color: black;
+}
+.portfolioTitle:hover {
+  text-decoration: none;
 }
 
 .langLinks {

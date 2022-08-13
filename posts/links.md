@@ -7,5 +7,5 @@ title: 'Links'
 - LinkedIn: [https://www.linkedin.com/in/sosuke-nishikawa-2100581a0](https://www.linkedin.com/in/sosuke-nishikawa-2100581a0)
 - Blog (Ja): [https://nchaso.hatenablog.com](https://nchaso.hatenablog.com)
 - Qiita (Ja): [https://qiita.com/Sosuke115](https://qiita.com/Sosuke115)
-
+- Previous Portfolio: [https://sosuke115.github.io/](https://sosuke115.github.io/)
 

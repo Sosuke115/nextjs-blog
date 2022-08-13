@@ -37,6 +37,9 @@ export const Links = () => (
     <Link href="/index_ja">
       <a className="font-bold p-4">日本語</a>
     </Link>
+    <Link href="/experiences">
+      <a className="font-bold p-4">Experiences</a>
+    </Link>
     <Link href="/links">
       <a className="font-bold p-4">Links</a>
     </Link>
@@ -47,7 +50,3 @@ export const Links = () => (
 );
 
 export default HamburgerMenu;
-
-{/* <Link href="/experience">
-<a className="font-bold p-4">Experience</a>
-</Link> */}
