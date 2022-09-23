@@ -11,17 +11,15 @@ title: 'Publications'
     Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT 2022) \
     [[paper](https://arxiv.org/abs/2205.04260)] [[code](https://github.com/studio-ousia/ease)] [[slide](https://sosuke.info/files/ease.pdf)] [[model](https://huggingface.co/sosuke)]
 
+- [A Multilingual Bag-of-Entities Model forZero-Shot Cross-Lingual Text Classification](https://arxiv.org/pdf/2110.07792.pdf) \
+    **Sosuke Nishikawa**, Ikuya Yamada, Yoshimasa Tsuruoka, Isao Echizen \
+    Proceedings of the 26th SIGNLL Conference on Computational Natural Language Learning (CoNLL 2022) \
+    [[paper](https://arxiv.org/pdf/2110.07792.pdf)]
+
 - [Data Augmentation with Unsupervised Machine Translation Improves the Structural Similarity of Cross-lingual Word Embeddings](https://aclanthology.org/2021.acl-srw.17/) \
     **Sosuke Nishikawa**, Ryokan Ri, Yoshimasa Tsuruoka \
     Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: Student Research Workshop, pages 163–173, Online. (ACL-SRW 2021) \
     [[paper](https://aclanthology.org/2021.acl-srw.17/)] [[code (downstream tasks)](https://github.com/Sosuke115/CLDC)] [[slide](https://sosuke115.github.io/files/umtvec_slide.pdf)]
-
-
-
-- [A Multilingual Bag-of-Entities Model forZero-Shot Cross-Lingual Text Classification](https://arxiv.org/pdf/2110.07792.pdf) \
-    **Sosuke Nishikawa**, Ikuya Yamada, Yoshimasa Tsuruoka, Isao Echizen \
-    Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: Student Research Workshop, pages 163–173, Online. (ACL-SRW 2021, [non-archival](https://sites.google.com/view/acl-ijcnlp-2021-srw/call-for-papers#h.63catcmx7mai) option is used for future publication) \
-    [[paper](https://arxiv.org/pdf/2110.07792.pdf)]
 
 
 ### Non-refereed
