@@ -2,7 +2,7 @@
 title: 'Work Experience'
 ---
 
-#### **2022.4 - PRESENT**: ML/Software Engineer, [Yahoo Japan Corporation](https://about.yahoo.co.jp/)
+#### **2022.4 - PRESENT**: ML Engineer/Data Scientist, [Yahoo Japan Corporation](https://about.yahoo.co.jp/)
 
 #### **2020.4 - 2022.3**: Research Assistant, [National Institute of Informatics](https://www.nii.ac.jp/en/)
 
