@@ -21,7 +21,7 @@ export async function getStaticProps() {
 // TODO 英語ページの作成
 export default function Home({ idToData }) {
     console.log(idToData);
-  const idList = ["経験_学歴", "経験_賞", "経験_インターン", "研究業績", "経験_その他"];
+  const idList = ["経験_学歴", "経験_賞", "経験_インターン", "研究業績", "経験_プログラミング", "経験_その他"];
   return (
     <Layout>
       <Head>

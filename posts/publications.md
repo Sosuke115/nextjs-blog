@@ -21,6 +21,11 @@ title: 'Publications'
     Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: Student Research Workshop, pages 163–173, Online. (ACL-SRW 2021) \
     [[paper](https://aclanthology.org/2021.acl-srw.17/)] [[code (downstream tasks)](https://github.com/Sosuke115/CLDC)] [[slide](https://sosuke115.github.io/files/umtvec_slide.pdf)]
 
+- [Closer Look at the Transferability of Adversarial Examples: How They Fool Different Models Differently](https://arxiv.org/abs/2112.14337) \
+    Futa Waseda, **Sosuke Nishikawa**, Trung-Nghia Le, Huy H. Nguyen, Isao Echizen\
+    Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2023) \
+    [[paper](https://arxiv.org/abs/2112.14337)]
+
 
 ### Non-refereed
 
@@ -44,8 +49,3 @@ title: 'Publications'
     **Sosuke Nishikawa**, Ikuya Yamada\
     Proceedings of the 15th NTCIR Conference on Evaluation of Information Access Technologies, December 8-11, 2020 Tokyo Japan (NTCIR-15) \
     [[paper](http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings15/pdf/ntcir/08-NTCIR15-SHINRA-NishikawaS.pdf)] [[poster](https://sosuke115.github.io/files/shinra_poster.pdf)]
-
-- [Closer Look at the Transferability of Adversarial Examples: How They Fool Different Models Differently](https://arxiv.org/abs/2112.14337) \
-    Futa Waseda, **Sosuke Nishikawa**, Trung-Nghia Le, Huy H. Nguyen, Isao Echizen\
-    Preprint abs/2112.14337, 2021 \
-    [[paper](https://arxiv.org/abs/2112.14337)]
