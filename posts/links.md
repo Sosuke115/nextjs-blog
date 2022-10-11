@@ -8,4 +8,5 @@ title: 'Links'
 - Blog (Ja): [https://nchaso.hatenablog.com](https://nchaso.hatenablog.com)
 - Qiita (Ja): [https://qiita.com/Sosuke115](https://qiita.com/Sosuke115)
 - Previous Portfolio: [https://sosuke115.github.io/](https://sosuke115.github.io/)
+- Reading books: [https://sosuke.info/reading_books](https://sosuke.info/reading_books)
 
