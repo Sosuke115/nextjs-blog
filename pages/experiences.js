@@ -5,23 +5,24 @@ import Layout, { siteTitle } from "../components/layout";
 
 // TODO getStaticPropsの共通化
 export async function getStaticProps() {
-    const allPostsData = await getSortedPostsData();
-    const idToData = { contentHtml: {}, title: {} };
-    allPostsData.forEach((data) => {
-      idToData["contentHtml"][data["id"]] = data["contentHtml"];
-      idToData["title"][data["id"]] = data["title"];
-    });
-    return {
-      props: {
-        idToData,
-      },
-    };
-  }
+  const allPostsData = await getSortedPostsData();
+  const idToData = { contentHtml: {}, title: {} };
+  allPostsData.forEach((data) => {
+    idToData["contentHtml"][data["id"]] = data["contentHtml"];
+    idToData["title"][data["id"]] = data["title"];
+  });
+  return {
+    props: {
+      idToData,
+    },
+  };
+}
 
 // TODO 英語ページの作成
 export default function Home({ idToData }) {
-    console.log(idToData);
-  const idList = ["経験_学歴", "経験_賞", "経験_インターン", "研究業績", "経験_プログラミング", "経験_その他"];
+  console.log(idToData);
+  // const idList = ["経験_学歴", "経験_賞", "経験_インターン", "研究業績", "経験_プログラミング", "経験_その他"];
+  const idList = ["経験_学歴", "経験_賞", "経験_インターン", "研究業績", "経験_その他"];
   return (
     <Layout>
       <Head>
