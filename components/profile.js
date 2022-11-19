@@ -23,7 +23,7 @@ export default function Profile(props) {
             {props.name}
           </div>
           <p className={`${utilStyles.headingMd} ${styles.profileText}`}>
-            ML/Software Engineer,{" "}
+            Data Scientist,{" "}
             <Link href="https://about.yahoo.co.jp/">
               Yahoo Japan Corporation
             </Link>
@@ -65,7 +65,7 @@ export default function Profile(props) {
             {props.name}
           </div>
           <p className={`${utilStyles.headingMd} ${styles.profileText}`}>
-            機械学習/ソフトウェアエンジニア,{" "}
+            データサイエンティスト,{" "}
             <Link href="https://about.yahoo.co.jp/">ヤフー株式会社</Link>
             <br />
             <a href="https://www.i.u-tokyo.ac.jp/edu/course/ice/">
