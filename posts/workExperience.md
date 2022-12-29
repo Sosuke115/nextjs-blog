@@ -4,7 +4,7 @@ title: 'Work Experience'
 
 #### **2022.4 - PRESENT**: Data Scientist, [Yahoo Japan Corporation](https://about.yahoo.co.jp/)
 
-#### **2022.11 - PRESENT**: Software Engineer, [Studio Ousia](https://www.ousia.jp/en/)
+#### **2022.11 - PRESENT**: Software Engineer (Part-time), [Studio Ousia](https://www.ousia.jp/en/)
 
 #### **2020.4 - 2022.3**: Research Assistant, [National Institute of Informatics](https://www.nii.ac.jp/en/)
 
