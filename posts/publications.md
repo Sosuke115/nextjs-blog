@@ -27,7 +27,7 @@ title: 'Publications'
     [[paper](https://arxiv.org/abs/2112.14337)]
 
 
-### Non-refereed
+### Non-refereed / Others
 
 - [エンティティの言語間リンクに基づく多言語モデルの構築](https://www.anlp.jp/proceedings/annual_meeting/2021/pdf_dir/P8-14.pdf) \
     **Sosuke Nishikawa**, Ikuya Yamada, Yoshimasa Tsuruoka, Isao Echizen \
@@ -49,3 +49,7 @@ title: 'Publications'
     **Sosuke Nishikawa**, Ikuya Yamada\
     Proceedings of the 15th NTCIR Conference on Evaluation of Information Access Technologies, December 8-11, 2020 Tokyo Japan (NTCIR-15) \
     [[paper](http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings15/pdf/ntcir/08-NTCIR15-SHINRA-NishikawaS.pdf)] [[poster](https://sosuke115.github.io/files/shinra_poster.pdf)]
+
+- [EASE: Entity-Aware Contrastive Learning of Sentence Embedding](https://www.jstage.jst.go.jp/article/jnlp/29/4/29_1290/_article/-char/ja)  \
+  **Sosuke Nishikawa** \
+  Journal of Natural Language Processing, 2022, Volume 29, Issue 4, Pages 1290-1296, December 2022.
