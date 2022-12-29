@@ -40,8 +40,6 @@ export default function Profile(props) {
             </a>
             , 2020
             <br />
-            {/* <a href="https://sosuke115.github.io/">Here</a> is the previous
-            portfolio. */}
           </p>
         </div>
       </div>
@@ -62,9 +60,11 @@ export default function Profile(props) {
 
         <div className={styles.profileTextWrapper}>
           <div className={`${utilStyles.headingXl} ${styles.profileName}`}>
-            {props.name}
+            プロフィール
           </div>
           <p className={`${utilStyles.headingMd} ${styles.profileText}`}>
+            西川 荘介（にしかわ そうすけ）
+            <br />
             データサイエンティスト,{" "}
             <Link href="https://about.yahoo.co.jp/">ヤフー株式会社</Link>
             <br />
@@ -74,12 +74,10 @@ export default function Profile(props) {
             , 2022
             <br />
             <a href="https://www.ee.t.u-tokyo.ac.jp/j/">
-              東京大学 工学部 電子情報工学科卒
+              東京大学 工学部 電子情報工学科卒業
             </a>
             , 2020
             <br />
-            {/* 学生時代のポートフォリオは
-            <a href="https://sosuke115.github.io/">コチラ</a> */}
           </p>
         </div>
       </div>
