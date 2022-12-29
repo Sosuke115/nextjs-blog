@@ -14,7 +14,7 @@ title: 'Publications'
 - [A Multilingual Bag-of-Entities Model forZero-Shot Cross-Lingual Text Classification](https://arxiv.org/pdf/2110.07792.pdf) \
     **Sosuke Nishikawa**, Ikuya Yamada, Yoshimasa Tsuruoka, Isao Echizen \
     Proceedings of the 26th SIGNLL Conference on Computational Natural Language Learning (CoNLL 2022) \
-    [[paper](https://arxiv.org/pdf/2110.07792.pdf)]
+    [[paper](https://arxiv.org/pdf/2110.07792.pdf)] [[slide](https://sosuke.info/files/m-boe.pdf)]
 
 - [Data Augmentation with Unsupervised Machine Translation Improves the Structural Similarity of Cross-lingual Word Embeddings](https://aclanthology.org/2021.acl-srw.17/) \
     **Sosuke Nishikawa**, Ryokan Ri, Yoshimasa Tsuruoka \
