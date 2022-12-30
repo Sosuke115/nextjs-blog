@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { useRouter } from 'next/router';
 import { slide as Menu } from "react-burger-menu";
 import { useState, useEffect } from 'react';
 import styles from "./menu.module.css";
@@ -78,7 +79,18 @@ const HamburgerIcon = () => (
   </div>
 );
 
-export const Links = (props) => (
+export const Links = (props) => {
+  const router = useRouter();
+  const [language, setLanguage] = useState(router.query.lang || 'en');
+
+  const handleChangeLanguage = (newLanguage) => {
+    setLanguage(newLanguage);
+    const path = `/${router.pathname}`.replace(/\/[a-z]{2}\//, `/${newLanguage}/`);
+    router.push(path, undefined, {
+      shallow: true,
+    });
+  };
+return (
   <>
     {props.isJapanese ? (
       <Link href="/ja">
@@ -90,29 +102,29 @@ export const Links = (props) => (
       </Link>
     )}
     {props.isJapanese ? (
-      <Link href="/experiences">
-        <a className="font-bold p-4">経験</a>
+      <Link href="/ja/experiences">
+        <a className="font-bold p-4">経歴</a>
       </Link>
     ) : (
-      <Link href="/experiences">
+      <Link href="/en/experiences">
         <a className="font-bold p-4">Experiences</a>
       </Link>
     )}
     {props.isJapanese ? (
-      <Link href="/experiences">
+      <Link href="/ja/publications">
         <a className="font-bold p-4">研究業績</a>
       </Link>
     ) : (
-      <Link href="/experiences">
+      <Link href="/en/publications">
         <a className="font-bold p-4">Publications</a>
       </Link>
     )}
     {props.isJapanese ? (
-      <Link href="/links">
+      <Link href="/ja/links">
         <a className="font-bold p-4">リンク</a>
       </Link>
     ) : (
-      <Link href="/links">
+      <Link href="/en/links">
         <a className="font-bold p-4">Links</a>
       </Link>
     )}
@@ -126,13 +138,10 @@ export const Links = (props) => (
       </Link>
     )}
     {props.isJapanese ? (
-      <Link href="/en">
-        <a className="font-bold p-4">En</a>
-      </Link>
+        <a className="font-bold p-4" onClick={() => handleChangeLanguage('en')}>En</a>
     ) : (
-      <Link href="/ja">
-        <a className="font-bold p-4">日本語</a>
-      </Link>
+        <a className="font-bold p-4" onClick={() => handleChangeLanguage('ja')}>日本語</a>
     )}
   </>
-);
+  );
+};
