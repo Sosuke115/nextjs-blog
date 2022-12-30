@@ -9,7 +9,6 @@ export async function getStaticProps() {
 }
 
 export default function Home({ idToData }) {
-  const idList = ["アバウト"];
   return (
     <Layout>
       <Head>

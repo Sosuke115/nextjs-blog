@@ -1,7 +1,54 @@
 import Link from "next/link";
 import { slide as Menu } from "react-burger-menu";
+import { useState, useEffect } from 'react';
+import styles from "./menu.module.css";
 
-const HamburgerMenu = () => (
+export function MenuBar() {
+  const [isMenuVisible, setMenuVisible] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 768) {
+        setMenuVisible(true);
+      } else {
+        setMenuVisible(false);
+      }
+    };
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  return (
+    <div>
+      {isMenuVisible && (
+        <div className={styles.menubar}>
+          <Links />
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default function HamburgerMenu() {
+  const [isMenuVisible, setMenuVisible] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 768) {
+        setMenuVisible(true);
+      } else {
+        setMenuVisible(false);
+      }
+    };
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  return (
+    <div>
+      {isMenuVisible && (
   <div className="relative p-2">
     <Menu right
       customBurgerIcon={<HamburgerIcon />}
@@ -11,8 +58,10 @@ const HamburgerMenu = () => (
       <Links />
     </Menu>
   </div>
-);
-
+      )}
+    </div>
+  );
+}
 const HamburgerIcon = () => (
   <div className="p-1/2">
     <svg
@@ -48,5 +97,3 @@ export const Links = () => (
     </Link>
   </>
 );
-
-export default HamburgerMenu;

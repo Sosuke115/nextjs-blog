@@ -11,6 +11,10 @@
   top: 0;
 }
 
+.header > div:last-child {
+  margin-left: auto;  /* 左側のマージンを自動にします */
+}
+
 .portfolioTitle {
   margin-left: 1rem;
   font-weight: 700;

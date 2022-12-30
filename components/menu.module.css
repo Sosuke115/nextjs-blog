@@ -1,0 +1,20 @@
+.menubar {
+    display: inline-block;  /* 行内ブロックを指定します */
+}
+  
+.menubar a {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-left: 3rem; 
+    color: black;
+    text-decoration: none;
+}
+
+.menubar a:hover {
+    color: #0070f3;
+}
+
+.menubar {
+    text-align: right;
+}
+  
