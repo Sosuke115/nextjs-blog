@@ -85,7 +85,7 @@ export const Links = (props) => {
 
   const handleChangeLanguage = (newLanguage) => {
     setLanguage(newLanguage);
-    const path = `/${router.pathname}`.replace(/\/[a-z]{2}\//, `/${newLanguage}/`);
+    const path = `/${router.pathname}`.replace(/\/[a-z]{2}/, `/${newLanguage}`);
     router.push(path, undefined, {
       shallow: true,
     });

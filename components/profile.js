@@ -20,9 +20,11 @@ export default function Profile(props) {
 
         <div className={styles.profileTextWrapper}>
           <div className={`${utilStyles.headingXl} ${styles.profileName}`}>
-            {props.name}
+            Profile
           </div>
           <p className={`${utilStyles.headingMd} ${styles.profileText}`}>
+          Sosuke Nishikawa （西川 荘介）
+          <br />
             Data Scientist,{" "}
             <Link href="https://about.yahoo.co.jp/">
               Yahoo Japan Corporation

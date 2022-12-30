@@ -12,6 +12,7 @@
 
 .menubar a:hover {
     color: #0070f3;
+    cursor: pointer;
 }
 
 .menubar {
