@@ -3,7 +3,7 @@ import { slide as Menu } from "react-burger-menu";
 import { useState, useEffect } from 'react';
 import styles from "./menu.module.css";
 
-export function MenuBar() {
+export function MenuBar(props) {
   const [isMenuVisible, setMenuVisible] = useState(false);
 
   useEffect(() => {
@@ -23,14 +23,14 @@ export function MenuBar() {
     <div>
       {isMenuVisible && (
         <div className={styles.menubar}>
-          <Links />
+          <Links isJapanese={props.isJapanese} />
         </div>
       )}
     </div>
   );
 }
 
-export default function HamburgerMenu() {
+export default function HamburgerMenu(props) {
   const [isMenuVisible, setMenuVisible] = useState(false);
 
   useEffect(() => {
@@ -55,7 +55,7 @@ export default function HamburgerMenu() {
       width={"auto"}
       className="left-0 top-12"
     >
-      <Links />
+      <Links isJapanese={props.isJapanese} />
     </Menu>
   </div>
       )}
@@ -78,22 +78,61 @@ const HamburgerIcon = () => (
   </div>
 );
 
-export const Links = () => (
+export const Links = (props) => (
   <>
-    <Link href="/">
-      <a className="font-bold p-4">About</a>
-    </Link>
-    <Link href="/index_ja">
-      <a className="font-bold p-4">日本語</a>
-    </Link>
-    <Link href="/experiences">
-      <a className="font-bold p-4">Experiences</a>
-    </Link>
-    <Link href="/links">
-      <a className="font-bold p-4">Links</a>
-    </Link>
-    <Link href="https://nchaso.hatenablog.com">
-      <a className="font-bold p-4">Blog</a>
-    </Link>
+    {props.isJapanese ? (
+      <Link href="/ja">
+        <a className="font-bold p-4">ホーム</a>
+      </Link>
+    ) : (
+      <Link href="/en">
+        <a className="font-bold p-4">Home</a>
+      </Link>
+    )}
+    {props.isJapanese ? (
+      <Link href="/experiences">
+        <a className="font-bold p-4">経験</a>
+      </Link>
+    ) : (
+      <Link href="/experiences">
+        <a className="font-bold p-4">Experiences</a>
+      </Link>
+    )}
+    {props.isJapanese ? (
+      <Link href="/experiences">
+        <a className="font-bold p-4">研究業績</a>
+      </Link>
+    ) : (
+      <Link href="/experiences">
+        <a className="font-bold p-4">Publications</a>
+      </Link>
+    )}
+    {props.isJapanese ? (
+      <Link href="/links">
+        <a className="font-bold p-4">リンク</a>
+      </Link>
+    ) : (
+      <Link href="/links">
+        <a className="font-bold p-4">Links</a>
+      </Link>
+    )}
+    {props.isJapanese ? (
+      <Link href="https://nchaso.hatenablog.com">
+        <a className="font-bold p-4">ブログ</a>
+      </Link>
+    ) : (
+      <Link href="https://nchaso.hatenablog.com">
+        <a className="font-bold p-4">Blog</a>
+      </Link>
+    )}
+    {props.isJapanese ? (
+      <Link href="/en">
+        <a className="font-bold p-4">En</a>
+      </Link>
+    ) : (
+      <Link href="/ja">
+        <a className="font-bold p-4">日本語</a>
+      </Link>
+    )}
   </>
 );

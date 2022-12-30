@@ -3,7 +3,7 @@ import styles from "./header.module.css";
 import Image from "next/image";
 import HamburgerMenu, { Links, MenuBar } from "./menu";
 
-export default function Header() {
+export default function Header(props) {
   return (
     <div className={styles.header}>
       <Link href="/">
@@ -22,8 +22,8 @@ export default function Header() {
       <a className={styles.portfolioTitle}>Sosuke's Portfolio</a>
       </Link>
       <div>
-      <HamburgerMenu />
-      <MenuBar />
+      <HamburgerMenu isJapanese={props.isJapanese} />
+      <MenuBar isJapanese={props.isJapanese} />
       </div>
     </div>
   );

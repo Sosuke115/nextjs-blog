@@ -3,10 +3,10 @@ import styles from "./layout.module.css";
 import Footer from "./footer";
 import Header from "./header";
 
-export default function Layout({ children }) {
+export default function Layout({ children, ...props }) {
   return (
     <>
-      <Header />
+      <Header isJapanese={props.isJapanese} />
       <div className={styles.container}>
         <Head>
           <meta

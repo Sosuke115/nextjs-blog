@@ -10,7 +10,7 @@ export async function getStaticProps() {
 
 export default function Home({ idToData }) {
   return (
-    <Layout>
+    <Layout isJapanese={true}>
       <Head>
         <title>西川荘介のポートフォリオ</title>
       </Head>
