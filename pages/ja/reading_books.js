@@ -1,7 +1,7 @@
 import Head from "next/head";
-import utilStyles from "../styles/utils.module.css";
-import { getStaticPropsLib } from "../lib/posts";
-import Layout from "../components/layout";
+import utilStyles from "../../styles/utils.module.css";
+import { getStaticPropsLib } from "../../lib/posts";
+import Layout from "../../components/layout";
 
 export async function getStaticProps() {
     return getStaticPropsLib();
