@@ -9,6 +9,9 @@ export default function App({ Component, pageProps}) {
         if (pathname === '/') {
           router.push('/en')
         }
+        else if (pathname === '/index_ja') {
+          router.push('/ja')
+        }
     }, [router])
     return <Component {...pageProps} />
 }
