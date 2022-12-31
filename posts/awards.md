@@ -10,6 +10,6 @@ title: 'Awards'
 
 2020: （Received a scholarship for overseas study from the Nissho Iwai & Jitsuji Scholarship Foundation）
 
-2022: **Awarded the Department Head's Award**, [Information & Communication Engineering, Graduate school of information science and technology, The University of Tokyo](https://www.i.u-tokyo.ac.jp/edu/course/ice/index_e.shtml)
+2022: **Received the Department Head's Award**, [Information & Communication Engineering, Graduate school of information science and technology, The University of Tokyo](https://www.i.u-tokyo.ac.jp/edu/course/ice/index_e.shtml)
 
 2022: Exempted from [the loan-based scholarship from the Japan Student Services Organization](https://www.jasso.go.jp/en/index.html) (due to outstanding achievements during enrollment)
