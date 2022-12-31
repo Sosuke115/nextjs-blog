@@ -6,4 +6,4 @@ title: 'Others'
 
 2020: IELTS 6.0
 
-[List of books read](https://sosuke.info/reading_books)
+[List of books read](https://sosuke.info/en/reading_books)
