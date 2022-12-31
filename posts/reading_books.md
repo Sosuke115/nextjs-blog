@@ -1,5 +1,5 @@
 ---
-title: '読んだ本リスト'
+title: 'List of bools read'
 ---
 
 
