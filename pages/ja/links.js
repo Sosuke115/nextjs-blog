@@ -8,7 +8,7 @@ export async function getStaticProps() {
 }
 
 export default function Home({ idToData }) {
-  const idList = ["links"];
+  const idList = ["リンク"];
   return (
     <Layout isJapanese={true}>
       <Head>

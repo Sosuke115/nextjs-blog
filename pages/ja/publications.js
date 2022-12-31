@@ -8,7 +8,6 @@ export async function getStaticProps() {
 }
 
 export default function Home({ idToData }) {
-  console.log(idToData);
   const idList = ["研究業績"];
   return (
     <Layout isJapanese={true}>

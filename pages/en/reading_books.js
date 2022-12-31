@@ -1,25 +1,14 @@
 import Head from "next/head";
 import utilStyles from "../styles/utils.module.css";
-import { getSortedPostsData } from "../lib/posts";
-import Layout, { siteTitle } from "../components/layout";
+import { getStaticPropsLib } from "../lib/posts";
+import Layout from "../components/layout";
 
-// TODO getStaticPropsの共通化
 export async function getStaticProps() {
-    const allPostsData = await getSortedPostsData();
-    const idToData = { contentHtml: {}, title: {} };
-    allPostsData.forEach((data) => {
-      idToData["contentHtml"][data["id"]] = data["contentHtml"];
-      idToData["title"][data["id"]] = data["title"];
-    });
-    return {
-      props: {
-        idToData,
-      },
-    };
-  }
+    return getStaticPropsLib();
+}
+  
 export default function Home({ idToData }) {
-    console.log(idToData);
-  const idList = ["読んだ本リスト"];
+  const idList = ["reading_books"];
   return (
     <Layout>
       <Head>
