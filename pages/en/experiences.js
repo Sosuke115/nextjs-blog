@@ -9,7 +9,7 @@ export async function getStaticProps() {
 
 export default function Home({ idToData }) {
   console.log(idToData);
-  const idList = ["education", "workExperience", "awards", "products", "others"];
+  const idList = ["education", "workExperience", "internship", "awards", "products", "others"];
   return (
     <Layout>
       <Head>

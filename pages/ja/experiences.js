@@ -9,7 +9,7 @@ export async function getStaticProps() {
 
 export default function Home({ idToData }) {
   console.log(idToData);
-  const idList = ["学歴", "職歴", "賞", "開発物", "その他"];
+  const idList = ["学歴", "職歴", "インターンシップ", "賞", "開発物", "その他"];
   return (
     <Layout isJapanese={true}>
       <Head>
