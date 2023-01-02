@@ -50,6 +50,13 @@ title: 'Publications'
     Proceedings of the 15th NTCIR Conference on Evaluation of Information Access Technologies, December 8-11, 2020 Tokyo Japan (NTCIR-15) \
     [[paper](http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings15/pdf/ntcir/08-NTCIR15-SHINRA-NishikawaS.pdf)] [[poster](https://sosuke115.github.io/files/shinra_poster.pdf)]
 
-- [EASE: Entity-Aware Contrastive Learning of Sentence Embedding](https://www.jstage.jst.go.jp/article/jnlp/29/4/29_1290/_article/-char/ja)  \
+- [EASE: Entity-Aware Contrastive Learning of Sentence Embedding (Ja)](https://www.jstage.jst.go.jp/article/jnlp/29/4/29_1290/_article/-char/ja)  \
   **Sosuke Nishikawa** \
-  Journal of Natural Language Processing, 2022, Volume 29, Issue 4, Pages 1290-1296, December 2022.
+  Journal of Natural Language Processing, 2022, Volume 29, Issue 4, Pages 1290-1296, December 2022. \
+  [[paper](https://www.jstage.jst.go.jp/article/jnlp/29/4/29_1290/_pdf/-char/ja)]
+
+### Graduate Theses
+
+- [Multilingual Word Embedding Learning with Unsupervised Machine Translation Output (Ja)](https://sosuke.info/files/b4-thesis.pdf), Bachelor's thesis
+
+- [Multilingual Pre-trained Language Models Enhanced with a Knowledge Base (Ja)]((https://sosuke.info/files/m2-thesis.pdf)) ,Master's thesis ([Awarded Department's Head Award](https://www.i.u-tokyo.ac.jp/index_e.shtml))

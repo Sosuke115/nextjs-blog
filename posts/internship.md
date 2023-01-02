@@ -10,11 +10,11 @@ title: 'Internship'
 
 - Improved a recommendation system using graph embeddings (Python, GCP)
   
-2020.9 - 2020.9: Machine Learning Engineer Intern at [Cookpad Inc.](https://info.cookpad.com/)
+2020.9 - 2020.9: Machine Learning Engineer Intern at [Cookpad Inc.](https://www.cookpadteam.com/)
 
 - Developed an API that predicts ingredients from recipe titles (Python, AWS)
 
-2020.9 - 2020.10: Research and Development Intern at [Sony Corporation](https://www.sony.co.jp/)
+2020.9 - 2020.10: Research and Development Intern at [Sony Corporation](https://www.sony.net/)
 
 - Conducted research on dialogue systems (Python)
   
@@ -22,11 +22,11 @@ title: 'Internship'
 
 - Extracted information from Ameba blogs (Python, Java, Kubernetes)
   
-2021.3 - 2021.3: Software Engineer Intern at [teamLab Inc.](https://www.team-lab.com/)
+2021.3 - 2021.3: Software Engineer Intern at [teamLab Inc.](https://www.team-lab.com/en/product/)
 
 - Created unit tests for a Go project (Go, AWS)
   
-2020.4 - 2022.3: Machine Learning Engineer/Research and Development Intern at [Studio Ousia Inc.](https://www.ousia.jp/)
+2020.4 - 2022.3: Machine Learning Engineer/Research and Development Intern at [Studio Ousia Inc.](https://www.ousia.jp/en/)
 
 - Conducted research on knowledge bases (Python)
-- Worked on the [SHINRA 2020 Project](http://shinra-project.info/shinra2020ml/)
+- Worked on the [SHINRA 2020 Project](http://shinra-project.info/shinra2020ml/?lang=en)
