@@ -26,7 +26,7 @@ title: 'Internship'
 
 - Created unit tests for a Go project (Go, AWS)
   
-2020.4 - 2022.3: Machine Learning Engineer/Research and Development Intern at [Studio Ousia Inc.](https://www.ousia.jp/en/)
+2020.4 - 2022.3: Machine Learning Engineer/Research Intern at [Studio Ousia Inc.](https://www.ousia.jp/en/)
 
-- Conducted research on knowledge bases (Python)
+- Conducted research on Knowledge Base (Python)
 - Worked on the [SHINRA 2020 Project](http://shinra-project.info/shinra2020ml/?lang=en)
