@@ -9,7 +9,8 @@ export function MenuBar(props) {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth > 768) {
+      // if (window.innerWidth > 768) {
+      if (window.innerWidth > 1050) {
         setMenuVisible(true);
       } else {
         setMenuVisible(false);
@@ -36,7 +37,8 @@ export default function HamburgerMenu(props) {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth <= 768) {
+      // if (window.innerWidth <= 768) {
+        if (window.innerWidth <= 1050) {
         setMenuVisible(true);
       } else {
         setMenuVisible(false);
