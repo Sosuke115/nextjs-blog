@@ -2,7 +2,7 @@
 title: 'Others'
 ---
 
-2009: Amateur Go Player, Fifth Dan (certified by the Nihon Ki-in) [certificate](https://sosuke.info/files/go.pdf)
+2009: Amateur Go Player, Fifth Dan (certified by the Nihon Ki-in) [[certificate](https://sosuke.info/files/go.pdf)]
 
 2016 - 2020: [LaVoce, The University of Tokyo A Cappella Band Circle](https://www.lavoce.jp/), 20th general affair
 
