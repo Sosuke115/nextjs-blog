@@ -6,7 +6,7 @@ title: 'Awards'
 [[video](https://www.youtube.com/watch?v=LWtJZZejSDs)]
 
 2020: Received excellent prize in the final project of the course "Advanced Artificial Intelligence Theory II" 
-[[code](https://github.com/futakw/Twitter_Image_Captioning)][[poster](https://sosuke115.github.io/files/twitter_image_caption.pdf)][[certificate](https://sosuke115.github.io/files/twitter_certificate.jpg)]
+[[code](https://github.com/futakw/Twitter_Image_Captioning)] / [[poster](https://sosuke115.github.io/files/twitter_image_caption.pdf)] / [[certificate](https://sosuke115.github.io/files/twitter_certificate.jpg)]
 
 2020: （Received a scholarship for overseas study from the Nissho Iwai & Jitsuji Scholarship Foundation）
 
