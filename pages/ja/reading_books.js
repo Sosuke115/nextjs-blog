@@ -12,7 +12,7 @@ export default function Home({ idToData }) {
   return (
     <Layout isJapanese={true}>
       <Head>
-        <title>Sosuke Nishikawa's Portfolio</title>
+        <title>西川荘介のポートフォリオ</title>
       </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <ul className={utilStyles.list}>
