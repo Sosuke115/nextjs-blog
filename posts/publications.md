@@ -59,4 +59,4 @@ title: 'Publications'
 
 - [Multilingual Word Embedding Learning with Unsupervised Machine Translation Output (Ja)](https://sosuke.info/files/b4-thesis.pdf), Bachelor's thesis
 
-- [Multilingual Pre-trained Language Models Enhanced with a Knowledge Base (Ja)]((https://sosuke.info/files/m2-thesis.pdf)) ,Master's thesis ([Awarded Department's Head Award](https://www.i.u-tokyo.ac.jp/index_e.shtml))
+- [Multilingual Pre-trained Language Models Enhanced with a Knowledge Base (Ja)](https://sosuke.info/files/m2-thesis.pdf), Master's thesis ([Awarded Department's Head Award](https://www.i.u-tokyo.ac.jp/index_e.shtml))
