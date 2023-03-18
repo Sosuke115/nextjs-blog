@@ -8,12 +8,12 @@ title: 'Publications'
 
 - [EASE: Entity-Aware Contrastive Learning of Sentence Embedding](https://aclanthology.org/2022.naacl-main.284/) \
     **Sosuke Nishikawa**, Ryokan Ri, Ikuya Yamada, Yoshimasa Tsuruoka, Isao Echizen \
-    Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT 2022) (Oral) \
+    Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT 2022, Oral) \
     [[paper](https://aclanthology.org/2022.naacl-main.284)] / [[code](https://github.com/studio-ousia/ease)]  / [[slide](https://sosuke.info/files/ease.pdf)]  / [[model](https://huggingface.co/sosuke)]
 
 - [A Multilingual Bag-of-Entities Model forZero-Shot Cross-Lingual Text Classification](https://arxiv.org/pdf/2110.07792.pdf) \
     **Sosuke Nishikawa**, Ikuya Yamada, Yoshimasa Tsuruoka, Isao Echizen \
-    Proceedings of the 26th SIGNLL Conference on Computational Natural Language Learning (CoNLL 2022) (Oral) \
+    Proceedings of the 26th SIGNLL Conference on Computational Natural Language Learning (CoNLL 2022, Oral) \
     [[paper](https://arxiv.org/pdf/2110.07792.pdf)] / [[slide](https://sosuke.info/files/m-boe.pdf)]
 
 - [Data Augmentation with Unsupervised Machine Translation Improves the Structural Similarity of Cross-lingual Word Embeddings](https://aclanthology.org/2021.acl-srw.17/) \
@@ -28,6 +28,11 @@ title: 'Publications'
 
 
 ### Non-refereed / Others
+
+- [検索クエリにおける共起情報を活用した非曖昧ドメイン固有語辞書の構築: ランドマークの事例](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q6-10.pdf) \
+    **Sosuke Nishikawa**, Sota Yamashiro, Hiroki Asano, Shumpei Sano, Manabu Sassano \
+    Proceedings of the 29th Annual Meeting of the Association for Natural Language Processing (NLP2023) \
+    [[paper](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q6-10.pdf)] 
 
 - [エンティティの言語間リンクに基づく多言語モデルの構築](https://www.anlp.jp/proceedings/annual_meeting/2021/pdf_dir/P8-14.pdf) \
     **Sosuke Nishikawa**, Ikuya Yamada, Yoshimasa Tsuruoka, Isao Echizen \
