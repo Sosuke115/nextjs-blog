@@ -23,7 +23,8 @@ export default function Profile(props) {
             Profile
           </div>
           <p className={`${utilStyles.headingMd} ${styles.profileText}`}>
-          Sosuke Nishikawa （西川 荘介）
+          Sosuke Nishikawa （西川 荘介）[<Link href="https://sosuke.info/files/cv.pdf">CV</Link>]
+          
           <br />
             Data Scientist,{" "}
             <Link href="https://about.yahoo.co.jp/">
@@ -65,7 +66,7 @@ export default function Profile(props) {
             プロフィール
           </div>
           <p className={`${utilStyles.headingMd} ${styles.profileText}`}>
-            西川 荘介（にしかわ そうすけ）
+            西川 荘介（にしかわ そうすけ）[<Link href="https://sosuke.info/files/cv.pdf">CV</Link>]
             <br />
             データサイエンティスト,{" "}
             <Link href="https://about.yahoo.co.jp/">ヤフー株式会社</Link>

@@ -1,6 +1,6 @@
 import styles from "./footer.module.css";
 import { FaLinkedin } from "react-icons/fa";
-import { VscTwitter, VscGithub, VscMail } from "react-icons/vsc";
+import { VscTwitter, VscGithub, VscMail, VscAccount} from "react-icons/vsc";
 import { IconContext } from "react-icons";
 
 export default function Footer() {
@@ -59,6 +59,19 @@ export default function Footer() {
           <VscMail />
         </IconContext.Provider>
       </a>
+
+      <a href="https://sosuke.info/files/cv.pdf" className={styles.snsIcons}>
+        <IconContext.Provider
+          value={{
+            style: {
+              fontSize: "2.5rem",
+            },
+          }}
+        >
+          <VscAccount />
+        </IconContext.Provider>
+      </a>
+
       <div>© Sosuke Nishikawa</div>
     </div>
   );
