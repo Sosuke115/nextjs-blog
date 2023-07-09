@@ -38,7 +38,7 @@ export default function Profile(props) {
             , 2022
             <br />
             Bachelor of Engineering,{" "}
-            <a href="https://www.ee.t.u-tokyo.ac.jp/j/">
+            <a href="https://www.ee.t.u-tokyo.ac.jp/en/">
               The University of Tokyo
             </a>
             , 2020
@@ -76,7 +76,7 @@ export default function Profile(props) {
             </a>
             , 2022
             <br />
-            <a href="https://www.ee.t.u-tokyo.ac.jp/j/">
+            <a href="https://www.ee.t.u-tokyo.ac.jp/">
               東京大学 工学部 電子情報工学科卒業
             </a>
             , 2020
