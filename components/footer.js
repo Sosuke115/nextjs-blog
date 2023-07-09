@@ -59,19 +59,6 @@ export default function Footer() {
           <VscMail />
         </IconContext.Provider>
       </a>
-
-      <a href="https://sosuke.info/files/cv.pdf" className={styles.snsIcons}>
-        <IconContext.Provider
-          value={{
-            style: {
-              fontSize: "2.5rem",
-            },
-          }}
-        >
-          <VscAccount />
-        </IconContext.Provider>
-      </a>
-
       <div>© Sosuke Nishikawa</div>
     </div>
   );
