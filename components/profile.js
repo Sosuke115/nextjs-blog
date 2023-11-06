@@ -26,9 +26,9 @@ export default function Profile(props) {
           Sosuke Nishikawa （西川 荘介）[<Link href="https://sosuke.info/files/cv.pdf">CV</Link>]
           
           <br />
-            Data Scientist,{" "}
-            <Link href="https://about.yahoo.co.jp/">
-              Yahoo Japan Corporation
+            Research Engineer,{" "}
+            <Link href="https://www.lycorp.co.jp/en/">
+              LY Corporation
             </Link>
             <br />
             Master of Information Science and Technology,{" "}
@@ -68,8 +68,8 @@ export default function Profile(props) {
           <p className={`${utilStyles.headingMd} ${styles.profileText}`}>
             西川 荘介（にしかわ そうすけ）[<Link href="https://sosuke.info/files/cv.pdf">CV</Link>]
             <br />
-            データサイエンティスト,{" "}
-            <Link href="https://about.yahoo.co.jp/">ヤフー株式会社</Link>
+            リサーチエンジニア,{" "}
+            <Link href="https://www.lycorp.co.jp/ja/">LINEヤフー株式会社</Link>
             <br />
             <a href="https://www.i.u-tokyo.ac.jp/edu/course/ice/">
               東京大学大学院 情報理工学研究科 電子情報学専攻博士前期課程修了
