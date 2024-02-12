@@ -2,15 +2,14 @@
 title: 'Work Experience'
 ---
 
-2023.10 - Present : Research Engineer at [LY Corporation](https://www.lycorp.co.jp/en/)
+2022.4 - Present : Research Engineer at [LY Corporation](https://www.lycorp.co.jp/en/)
+
+- Conducted research and development on NLP libraries for Japanese text/queries using C++ and Python
+- Developed and operated NLP services using DevOps practices (e.g., CI/CD with Screwdriver.cd, deployment with Docker and Kubernetes, monitoring and logging with Grafana and Splunk)
 
 2022.11 - Present: Software Engineer (Part-time) at [Studio Ousia Inc.](https://www.ousia.jp/en/)
 
-- Currently working on the development of natural language processing SaaS services (Python, JavaScript)
-
-2022.4 - 2023.9 : Research Engineer at [Yahoo Japan Corporation](https://about.yahoo.co.jp/)
-
-- Worked on research and development of natural language processing systems (C++, Python)
+- Worked on the development of natural language processing SaaS services (Python, JavaScript)
 
 2020.4 - 2022.3: Research Assistant at [National Institute of Informatics](https://www.nii.ac.jp/)
 
