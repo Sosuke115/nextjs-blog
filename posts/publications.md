@@ -2,6 +2,7 @@
 title: 'Publications'
 ---
 
+My full publication list is available on [my Google Scholar profile](https://scholar.google.co.jp/citations?user=LH021foAAAAJ&hl=en).
 
 ### Refereed
 
