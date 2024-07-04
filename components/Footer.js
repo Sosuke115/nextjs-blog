@@ -1,6 +1,6 @@
 import styles from "./footer.module.css";
 import { FaLinkedin } from "react-icons/fa";
-import { VscTwitter, VscGithub, VscMail } from "react-icons/vsc";
+import { VscTwitter, VscGithub, VscMail, VscAccount} from "react-icons/vsc";
 import { IconContext } from "react-icons";
 
 export default function Footer() {
