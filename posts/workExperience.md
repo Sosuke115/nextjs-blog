@@ -4,8 +4,8 @@ title: 'Work Experience'
 
 2022.4 - Present : Research Engineer at [LY Corporation](https://www.lycorp.co.jp/en/)
 
-- Conducted research and development on NLP libraries for Japanese text/queries using C++ and Python
-- Developed and operated NLP services using DevOps practices (e.g., CI/CD with Screwdriver.cd, deployment with Docker and Kubernetes, monitoring and logging with Grafana and Splunk)
+- Conducted research and development to enhance core NLP/ML libraries for Japanese text/queries using C++ and Python. Focus areas included improving Query Understanding, Text Embeddings, and Language Model Processing.
+- Developed and operated ML infrastructure for NLP using MLOps practices. This included automating model training with PyTorch and Trino, optimizing inference servers with ONNX Runtime, and deploying with Docker and Kubernetes.
 
 2022.11 - Present: Software Engineer (Part-time) at [Studio Ousia Inc.](https://www.ousia.jp/en/)
 
