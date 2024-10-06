@@ -1,6 +1,6 @@
 import styles from "./footer.module.css";
-import { FaLinkedin } from "react-icons/fa";
-import { VscTwitter, VscGithub, VscMail, VscAccount} from "react-icons/vsc";
+import { VscTwitter, VscGithub, VscMail} from "react-icons/vsc";
+import { SiGooglescholar } from "react-icons/si";
 import { IconContext } from "react-icons";
 
 export default function Footer() {
@@ -34,7 +34,8 @@ export default function Footer() {
       </a>
 
       <a
-        href="https://www.linkedin.com/in/sosuke-nishikawa-2100581a0/"
+        // href="https://www.linkedin.com/in/sosuke-nishikawa-2100581a0/"
+        href="https://scholar.google.co.jp/citations?user=LH021foAAAAJ"
         className={styles.snsIcons}
       >
         <IconContext.Provider
@@ -44,7 +45,7 @@ export default function Footer() {
             },
           }}
         >
-          <FaLinkedin />
+          <SiGooglescholar />
         </IconContext.Provider>
       </a>
 
