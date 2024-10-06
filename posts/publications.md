@@ -4,6 +4,12 @@ title: 'Publications'
 
 My full publication list is available on [my Google Scholar profile](https://scholar.google.co.jp/citations?user=LH021foAAAAJ&hl=en).
 
+### Books
+
+- [Introduction to Large Language Models II (in Japanese)](https://www.amazon.co.jp/dp/4297143933) \
+Ikuya Yamada, Masatoshi Suzuki, **Sosuke Nishikawa**, Kazuki Fujii, Kosuke Yamada, Ryokan Ri \
+Gijutsu-Hyohron Co., Ltd., 2024
+
 ### Refereed
 
 
@@ -29,6 +35,10 @@ My full publication list is available on [my Google Scholar profile](https://sch
 
 
 ### Non-refereed / Others
+
+- 検索クリックログに基づくクエリ理解に特化した埋め込み \
+    **Sosuke Nishikawa**, Jun Hirako, Shumpei Sano, Hiroki Asano, Koki Watanabe, Soya Yamashiro, Nobuhiro Kaji \
+    19th Symposium of Young Researcher Association for NLP Studies (YANS 2024)
 
 - [検索クエリにおける共起情報を活用した非曖昧ドメイン固有語辞書の構築: ランドマークの事例](https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/Q6-10.pdf) \
     **Sosuke Nishikawa**, Sota Yamashiro, Hiroki Asano, Shumpei Sano, Manabu Sassano \
